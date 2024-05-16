@@ -1,6 +1,8 @@
 package com.example.projectmanage.Model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -10,13 +12,28 @@ import java.util.Set;
 @Entity
 @Table(name = "task")
 public class task {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String name;
     private String description;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
 
-    @OneToMany(mappedBy = "task")
-    private Set<projects> project;
+    //    @OneToMany(mappedBy = "task")
+//    private Set<projects> project;
+    @ManyToOne
+    @JoinColumn(name = "project_Id")
+    @JsonIgnore
+    private projects project;
+
+    public projects getProject() {
+        return project;
+    }
+
+    public void setProject(projects project) {
+        this.project = project;
+    }
 
     @ManyToMany
     @JoinTable(
@@ -25,8 +42,7 @@ public class task {
             inverseJoinColumns = @JoinColumn(name = "user_id")
     )
     private Set<users> users;
-    @Id
-    private Long id;
+
 
     public void setId(Long id) {
         this.id = id;

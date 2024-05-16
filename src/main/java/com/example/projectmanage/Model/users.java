@@ -1,8 +1,9 @@
 package com.example.projectmanage.Model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 
+import javax.persistence.Table;
 import java.util.Set;
 
 @Data

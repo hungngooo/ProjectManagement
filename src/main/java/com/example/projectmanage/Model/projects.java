@@ -1,9 +1,11 @@
 package com.example.projectmanage.Model;
 
-import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.Collection;
 import java.util.Set;
 
 @Data
@@ -25,17 +27,10 @@ public class projects {
     )
     private Set<users> users;
 
-    @ManyToOne
-    @JoinColumn(name = "task_Id")
-    private task task;
+    @OneToMany(mappedBy = "project")
+    @JsonIgnore
+    private Set<task> task;
 
-    public com.example.projectmanage.Model.task getTask() {
-        return task;
-    }
-
-    public void setTask(com.example.projectmanage.Model.task task) {
-        this.task = task;
-    }
 
     public Set<com.example.projectmanage.Model.users> getUsers() {
         return users;
@@ -75,5 +70,13 @@ public class projects {
 
     public void setEndDate(LocalDateTime endDate) {
         this.endDate = endDate;
+    }
+
+    public Set<com.example.projectmanage.Model.task> getTask() {
+        return task;
+    }
+
+    public void setTask(Set<com.example.projectmanage.Model.task> task) {
+        this.task = task;
     }
 }
