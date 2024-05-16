@@ -1,8 +1,8 @@
 
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡›ŽÅÿÿÿÿÿ8„ÊÏ®÷1J$67e29bc9-e8cc-4020-b460-ec709b9a5a71
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ×°¯üÿÿÿÿ8‡ÊÏ®÷1J$b1cb93ff-4b5a-447d-abe4-354b1fc8c11a
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡›ŽÅÿÿÿÿÿ8„ÊÏ®÷1J$5d543330-5f11-474c-93aa-a545f8b4aa2b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ×°¯üÿÿÿÿ8‡ÊÏ®÷1J$4876f63a-023f-4a0c-9b88-8307a14131f5
 w
 java:S1128
-"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8‘ÊÏ®÷1J$8b449ac4-8814-47c5-9d08-2aa0c7c0336d
+"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8‘ÊÏ®÷1J$37b8f1b1-2597-49fe-af23-0a5718954eb5
 {
-java:S1068"3Remove this unused "passwordEncoder" private field.(ûŽ·øÿÿÿÿÿ8“ÊÏ®÷1J$4a372633-4aef-44ac-aeda-bd37a7b472ac
+java:S1068"3Remove this unused "passwordEncoder" private field.(ûŽ·øÿÿÿÿÿ8“ÊÏ®÷1J$f1d5a6d8-17c9-426a-ad5a-8d44cbb8c325

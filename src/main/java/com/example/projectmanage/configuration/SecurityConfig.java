@@ -38,12 +38,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.authenticationProvider(authenticationProvider());
     }
-
+    public static final String[] PUBLIC_URLS = {
+            "/auth/**"
+    };
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/auth/signup", "/auth/signin").permitAll()  // Allow unauthenticated access to /auth/signup and /auth/signin
+                .antMatchers(PUBLIC_URLS).permitAll()  // Allow unauthenticated access to /auth/signup and /auth/signin
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()

@@ -59,3 +59,7 @@ Q.idea/sonarlint/securityhotspotstore/a/e/aeab1348625ca5e7cd984e2a1a783de82c88c3
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+y
+Isrc/main/java/com/example/projectmanage/controller/projectController.java,f\1\f133b143d760bd381aee748b714429d69e565c26
+y
+Isrc/main/java/com/example/projectmanage/Repository/projectRepository.java,6\b\6b9f04bb111d1097dbe55cb2e93eed1ea39cd725
