@@ -1,0 +1,7 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤ìøîüÿÿÿÿJ$dd009aad-6c94-44e8-ab07-c036a31b1a50
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í¶ıùJ$fc591913-f1af-4456-be28-5394a3ed6721
+–
+java:S4144A"UUpdate this method so that its implementation is not identical to "getId" on line 25.(ıˆ¡ãøÿÿÿÿJ$688dee3b-fd05-4415-a323-89941ef53e71
+–
+java:S4144E"UUpdate this method so that its implementation is not identical to "setId" on line 29.(µûÆÉşÿÿÿÿJ$0b926123-85f8-4be8-859f-0013c92f343d

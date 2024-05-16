@@ -1,0 +1,8 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡›ŽÅÿÿÿÿÿ8„ÊÏ®÷1J$67e29bc9-e8cc-4020-b460-ec709b9a5a71
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ×°¯üÿÿÿÿ8‡ÊÏ®÷1J$b1cb93ff-4b5a-447d-abe4-354b1fc8c11a
+w
+java:S1128
+"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8‘ÊÏ®÷1J$8b449ac4-8814-47c5-9d08-2aa0c7c0336d
+{
+java:S1068"3Remove this unused "passwordEncoder" private field.(ûŽ·øÿÿÿÿÿ8“ÊÏ®÷1J$4a372633-4aef-44ac-aeda-bd37a7b472ac

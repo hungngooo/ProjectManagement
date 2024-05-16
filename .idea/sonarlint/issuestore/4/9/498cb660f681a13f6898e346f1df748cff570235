@@ -1,0 +1,15 @@
+
+k
+java:S5411+"(Use a primitive boolean expression here.(ºÍç8…•°÷1J$3c6e47ad-7204-41d9-8c55-6d7070dc744f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ï«‰°÷1J$25595965-8308-4d90-adff-c17bb6a3e9cd
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ï«‰°÷1J$586a8987-80c3-48c5-a3fb-8f332bdc8872
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ï«‰°÷1J$8a33248e-4437-4cf9-970c-301b6abd7274
+h
+java:S1452*"&Remove usage of generic wildcard type.(†ç78Ö«‰°÷1J$6b1c7914-cf9e-42f9-9359-d7fb2211666e
+
+java:S1128"KRemove this unused import 'com.example.projectmanage.Services.userService'.(®©ÀO8¡…•°÷1J$4d3706cb-73f0-4767-a91c-649c409d3696
+¥
+java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8¡…•°÷1J$0a6950e5-220c-4c68-bca3-4e5bf5b53d14
